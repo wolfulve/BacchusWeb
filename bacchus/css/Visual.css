@@ -1,0 +1,160 @@
+
+BODY {
+  background-image: url("");
+  background-position: left;
+  font-family: 'Lucida Grande', Arial, Geneva, Lucida, Helvetica, sans-serif;
+}
+
+H1	{ font-size: 100%; }
+H2	{ font-size: 85%; }
+
+.h1 { font-size: 15pt; }
+.h2 { font-size: 10pt; }
+.copyr { font-size: 8pt; }
+.menu { font-size: 10pt; }
+.btext { font-size: 10pt; }
+.bfont { font-size: 10pt; }
+.bg { BGCOLOR: #dddddd }
+
+.header { position: absolute; top: 1px; left: 1px; }
+
+.backgroundLabel { position: absolute; left: 15px; top: 114px; }
+
+<%  String font_size = "14px";
+	if ( MAC_IE ) 
+		font_size ="10pt";
+%>
+.firstCol {  color: black; font-size: <%=font_size%>;
+ position: absolute; top: 155px; left: 15px; width: 175px; }
+
+.clientsLabel { position: absolute; left: 252px; top: 114px; }
+
+.secCol { color: black; font-size: 14px; 
+ position: absolute; top: 155px; left: 254px; width: 175px; }
+
+.ImageAgentX { position: relative; top: 180px; left: -37px; }
+.ImageAgent { position: absolute; top: 206px; left: -38px; }
+
+.goalImage { position: absolute; top: 340px; left: -217px;}
+
+.clientSummaryLabel { position: absolute; left: 456px; top: 114px; }
+
+.footerMain { position: relative; left: -37px; top: 8px; }
+
+.footerProfile { position: relative; top: 20px; left: -35px; }
+
+.footerLegacy { position: relative; left: -145px; top: 20px; }
+
+.skillsFooter { position: relative; top: 15px; left: -35px; }
+
+.profileText {  color: black; font-size: 10pt;
+ position: absolute; top: 114px; left: 35px; width: 575px;}
+
+ .profileHeader { font-size: 11pt; }
+
+.skillsText {  color: black; font-size: 10pt;
+ position: absolute; top: 114px; left: 35px; width: 575px;}
+
+ .skillsHeader { font-size: 11pt; }
+
+ .contact { position: absolute; top: 130px; left: 255px; font-size: 14px }
+ .footerContact { position: relative; top: 30px; left: -255px; }
+ 
+.legacyNote {  position: absolute; top: 120px; left: 15px; width: 123px; height: 400px;
+  text-align: right; color: #555555; font-size: 11pt; }
+
+.legacyIA { position: absolute; left: 240px; top: 10px; }
+.legacyMirage { position: absolute; left: 440px; top: 35px; }
+
+.legacyPageCollage { position: absolute; left: 145px; top: 116px; }
+
+.PM_IA { font-size: 10pt; }
+
+
+
+ 
+ <% int top;
+	for (int i=0; i < numClients; i++) { 
+		top = offScreen;
+		if ( i == currClient )
+			top = onScreen; %>
+	#<%=clientNames[i]%> { visibility: show; position: absolute; top: <%=top%>px; left: 456px; 
+		color: #524169; font-size: 12px; width: 180px; }
+ <% } %>
+
+ /* client boxes */
+<% int boxHeight = 16;
+	for (int i=0; i < numClients; i++) { %>
+	DIV.ClientBox-<%=i+1%> {
+		position:absolute;
+		left:0px;
+		top:<%=i*boxHeight%>px;
+		width:142px;
+		height:<%=boxHeight%>px;
+	}
+<% } %>
+
+
+DIV.LogoLeft {
+	position:absolute;
+	left:75px;
+	top:0px;
+	width:151px;
+	height:98px;
+}
+
+DIV.Logo {
+	position:absolute;
+	left:226px;
+	top:0px;
+	width:198px;
+	height:98px;
+}
+
+DIV.LogoRight {
+	position:absolute;
+	left:424px;
+	top:0px;
+	width:224px;
+	height:98px;
+}
+
+DIV.mi0 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:75px;
+	height:22px;
+}
+
+DIV.mi1 {
+	position:absolute;
+	left:0px;
+	top:22px;
+	width:75px;
+	height:17px;
+}
+
+DIV.mi2 {
+	position:absolute;
+	left:0px;
+	top:39px;
+	width:75px;
+	height:17px;
+}
+
+DIV.mi3 {
+	position:absolute;
+	left:0px;
+	top:56px;
+	width:75px;
+	height:17px;
+}
+
+DIV.mi4 {
+	position:absolute;
+	left:0px;
+	top:73px;
+	width:75px;
+	height:25px;
+}

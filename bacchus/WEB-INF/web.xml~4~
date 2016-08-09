@@ -1,0 +1,85 @@
+<web-app>
+
+  <welcome-file-list>
+  <welcome-file>/index.jsp</welcome-file>
+  <welcome-file>/index.html</welcome-file>
+  </welcome-file-list>
+
+  <error-page>
+  <location>/error</location>
+  </error-page>
+
+  <servlet>
+    <servlet-name>generic-error</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+    <init-param>
+      <param-name>page</param-name>
+      <param-value>error</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping url-pattern='/error'
+    servlet-name='generic-error' />
+
+
+  <servlet>
+    <servlet-name>main</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+    <init-param>
+      <param-name>page</param-name>
+      <param-value>main</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping url-pattern='/main'
+    servlet-name='main' />
+
+  <servlet>
+    <servlet-name>resume</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+    <init-param>
+      <param-name>page</param-name>
+      <param-value>resume</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping url-pattern='/resume'
+    servlet-name='resume' />
+
+  <servlet>
+    <servlet-name>skills</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+    <init-param>
+      <param-name>page</param-name>
+      <param-value>skills</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping url-pattern='/skills'
+    servlet-name='skills' />
+
+  <servlet>
+    <servlet-name>legacy</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+    <init-param>
+      <param-name>page</param-name>
+      <param-value>legacy</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping url-pattern='/legacy'
+    servlet-name='legacy' />
+
+  <servlet>
+    <servlet-name>contact</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+    <init-param>
+      <param-name>page</param-name>
+      <param-value>contact</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping url-pattern='/contact'
+    servlet-name='contact' />
+
+</web-app>

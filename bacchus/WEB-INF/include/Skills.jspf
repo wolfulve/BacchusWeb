@@ -1,0 +1,62 @@
+
+
+<%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %  Skills.jspf
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%>
+
+<DIV class="skillsText">
+
+			<br>
+			<DIV class="skillsheader" align="left">
+          		<%--<B>Areas of Expertise</B>--%>
+				<img src="images/AreasOf.gif"  width="200" height="30" alt="">
+			</DIV>
+
+			<ul>
+				<li><b>Network and Web:</B> servlets, JSPs, EJBs, Apache, JBOSS, Resin, Jakarta/Tomcat, 
+					HTTP and HTTPS, TCP/IP sockets, multi-tiered client/server
+					architecture, firewalls, gateways, proxies
+				<li><b>Programming Languages:</b> Java (RMI, JNDI, Applet, Taglibs), C/C++, Perl, 
+					JavaScript, JSTL, shell scripts
+				<li><b>Operating Systems, programming and administration:</b> Windows NT/XP/2000, 
+					Linux (Debian), UNIX (BSD and OPENSTEP/NeXTSTEP)
+				<li><b>GUI:</b> layout, design and implementation, custom windowing
+					and widget libraries, custom interface design tools
+				<li><b>Database Systems:</b> MySQL, SQL, JDBC, ODBC, Oracle, Postgres
+				<li><b>Graphics and other Programming:</b> Swing, AWT, 3D, Image processing, 
+					OPENSTEP/NeXTSTEP AppKit/Foundation Kit
+				<li><b>Document Processing:</b> HTML and XHTML, CSS, XML, XSLT, JSTL, SiteMesh, PostScript, TeX, LaTeX
+				<li><b>SCM:</b> SVN, Perforce, StarTeam, CVS
+        <li><b>IDEs:</b> IntelliJ, JBuilder
+				<li><b>Internationalization and localization</b>
+			</ul>
+
+		
+			<DIV class="skillsheader" align="left">
+         		 <%--B>Additional Skills</B>--%>
+				 <img src="images/AddSkills.gif"  width="200" height="30" alt="">
+			</DIV>
+
+			<ul>
+				<li><b>Network and Web:</b> JRun, CGI, EAI, MQSeries, systems analysis, Apache-SSL
+				<li><b>Programming Languages:</b> Objective C,80x86 assembly, Pascal, 
+					Fortran, PL/I
+				<li><b>Operating Systems, programming and administration:</b> Solaris, Redhat Linux, Cobalt Linux, 
+					Mac OS and MS-DOS 
+				<li><b>Databases:</b> MySQL, PostgreSQL, Interbase
+				<li><b>Security and Cryptography:</b> SSH, SSLeay, JSSE, Java and JavaScript
+					obfuscation
+				<li>Video, serial device drivers and IBM-PC BIOS programming
+				<li>Technical writing and documentation
+				<li>Some experience with government research and development
+				<li>Customer support and relations
+			</ul>
+
+		<div class="skillsFooter">
+		  <img src="images/Footer.gif" width="648" height="26"  alt="">
+		</div>
+
+</DIV>
+

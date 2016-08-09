@@ -1,0 +1,82 @@
+ <script type="text/javascript" language="JavaScript1.2">
+ <!--
+
+    var mainMenu = new Array();
+	var mainMenuH = new Array();
+    <% for (int i=0; i < NUM_MENU_ITEMS; i++) { %>
+      mainMenu[<%=i%>] = new Image();
+      mainMenu[<%=i%>].src = "<%=headerImages[i]%>"
+	  mainMenuH[<%=i%>] = new Image();
+      mainMenuH[<%=i%>].src = "<%=headerImagesH[i]%>"
+    <% } %>
+
+	var logoImage = new Image();
+	logoImage.src = "<%=logoImageNormal%>";
+	var logoImageH = new Image();
+	logoImageH.src = "<%=logoImageHighlight%>";
+
+  
+    // init to query string menu index
+    // tracks current selected menu item index
+    // menuItem is actually selected/current menu item (page).
+    var menuIndex = <%=pageId%>;
+
+    // nested div reference prefix (or Netscape 4.x)
+    var innerMostMenuDivPrefix = 'document.header.document.mi';
+
+    function menuItemMouseOver(index) {
+      if ( index != menuIndex ) {
+      <% if ( !NS4X ) { %>
+	eval('document.mi' + index + '.src = mainMenuH[' +  index + '].src;');
+      <% } else { %>
+	eval(innerMostMenuDivPrefix + index + '.document.mi' + index + '.src = mainMenuH[index].src;');
+      <% } %>
+      menuIndex = index;
+     }
+    }
+
+    function menuItemMouseOut(index) {
+      <% if ( !NS4X ) { %>
+	if ( menuIndex != <%=pageId%> )
+	  eval('document.mi' + menuIndex + '.src = mainMenu[' +  menuIndex + '].src;');
+      <% } else { %>
+	if ( menuIndex != <%=pageId%> )
+	  eval(innerMostMenuDivPrefix + menuIndex + '.document.mi' + menuIndex + '.src = mainMenu[menuIndex].src;');
+      <% } %>
+      menuIndex = -1;
+    }
+
+     function logoMouseOver() {
+		<% if ( !NS4X ) { %>
+			eval('document.Logo.src = logoImageH.src;');
+		<% } else { %>
+			eval('document.header.document.Logo.document.Logo.src = logoImageH.src;');
+		<% } %>
+    }
+
+    function logoMouseOut(index) {
+		<% if ( !NS4X ) { %>
+		eval('document.Logo.src = logoImage.src;');
+		<% } else { %>
+		eval('document.header.document.Logo.document.Logo.src = logoImage.src;');
+		<% } %>
+    }
+
+     function menuItemMouseDown(index) {
+      menuItemMouseOut(index);
+    }
+
+    function init() {
+    }
+
+ // -->
+ </script>
+
+<div id="header" class="header"> 
+  <% for (int i =0; i < NUM_MENU_ITEMS; i++) { %>
+		<div id="mi<%=i%>" class="mi<%=i%>"><a href="<%=menuURLs[i]%>" target="_self" onMouseOver="menuItemMouseOver(<%=i%>);" onMouseOut="menuItemMouseOut(<%=i%>);"><img border="0" name="mi<%=i%>" src="<%=menuArray[i]%>"></a></div>
+  <% } %>
+  <div class="LogoLeft"><img border="0" src="images/menuAndHeader/normal/LogoLeft.gif" width="151" height="98"></div>
+  <div id="Logo" class="Logo"><a href='<c:url value="/"/>' target="_self" onMouseOver="logoMouseOver();" onMouseOut="logoMouseOut();"><img border="0" name="Logo" src="<%=logoImageNormal%>" width="198" height="98"></a></div>
+  <div class="LogoRight"><img border="0" src="images/menuAndHeader/normal/LogoRight.gif" width="224" height="98"></div>
+</div> 

@@ -1,0 +1,172 @@
+
+
+<%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %  profile.jspf
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%>
+
+<DIV class="profileText">
+B&auml;cchus, Inc., founded in 1985, 
+is a full service software development consulting firm specializing in
+Internet and web-based technologies, e-commerce, graphics, imaging and
+GUI.
+<br><br>
+For <A HREF="http://www.web-i18n.net/" target="new">Web i18n</a>, B&auml;cchus helped with the design, management and implementation of
+i18ngenious, an internationalized real estate web application. The initial
+release of i18ngenious supports Traditional Chinese, Simplified Chinese and English.
+Browser-based UI work included use of JSPs, servlets, taglets, JSTL, CSS and XML.
+Server side work involved extensive Java and EJBs. System is deployed
+on a Linux server with Apache, Resin and Postgres DB.
+<br><br>
+Our work for <A HREF="http://www.ixiacom.com/" target="new">Ixia</a> included the design and implementation of <A HREF="http://www.ixiacom.com/products/paa/netops/IxCore.php" target="new">IxCore</A>, a 
+fundamental part of Ixia's 
+<A HREF="http://www.ixiacom.com/products/paa/netops/" target="new">NetOps</A> suite of products for optimizing and monitoring network traffic. System included 
+Java-based central server for collecting,
+aggregating, and storing data from Ixia's hardware nodes. JSP's and servlets 
+provided browser-based monitoring front-end, including various on-demand 
+and prerendered report graphs, logging and a management UI.
+IxCore is platform, application server, and database independent and runs 
+on Linux and Windows NT/2000. 
+					
+
+<br><br>
+Other recent projects included extensive work on 
+<A HREF="http://www.contactpath.com/products.htm" target="new">P.A.M.</A>, an application
+	manager, automatic recovery system and eLiveAdvisor, a realtime web communication technology. 
+Our work included core Java client/server multi-threaded distributed 
+applications using RMI and Java 2, Linux system administration, Apache, 
+IIS, SSL, servlets, JRun, Oracle,Perl, JSP and JavaScript. In 
+addition to the back-end work, recent projects included extensive experience in cross-browser 
+compatability issues, especially involving applets and JavaScript, i.e., enabling use across a wide 
+range of browsers and platforms. 
+This technology is currently being used on several high-profile web sites - including <A HREF="http://www.carsdirect.com/" target="new">CarsDirect.com</A>, <A HREF="http://www.lrn.com/" target="new">LRN</A> and <A HREF="http://www.pratt-whitney.com/" target="new">Pratt & Whitney</A>.
+
+			<br><br>
+At <A HREF="http://www.webcountry.net" target="new">WorldSite Networks, Inc.</A>, 
+we worked on their Java based e-commerce system - ComBill.  In addition to the skills
+detailed in the previous section, this project involved RMI, <A HREF="http://java.sun.com/products/jfc/tsc/" target="new">Swing</A> 
+and Perl. The applications are currently in production at WorldSite on Linux, UNIX and 
+Windows NT.
+
+
+			<br><br>
+       				Other work includes extensive Java
+					development for <A HREF="http://java.sun.com" target="new">Sun Microsystems, Inc.</A>
+					Our primary task was to port the Netscape
+					<A HREF="http://developer.netscape.com/docs/manuals/ifc/home.html" target="new">IFC's</A>
+					look and feel  using the new
+					JFC <A HREF="http://java.sun.com/products/jfc/tsc/" target="new">Swing</A> 
+					GUI Toolkit and the latest Java&nbsp;AWT, producing what is now called the Elegance Look&nbsp;and 
+					Feel.
+					Approximately fifty classes were involved covering the full spectrum of graphical user
+					interface widgets: windows, buttons, scrollbars, sliders, etc.
+					We are particularly experienced implementing pluggable look-and-feels using 
+					Swing.
+
+
+
+			<br><br>
+        			In the mid-90s, B&auml;cchus designed and implemented a
+					high-resolution, cross-platform, realtime 6-DOF 3D graphics engine, including
+					an accelerated implementation for the <A HREF="http://www.rendition.com/" target="new">
+					Rendition V&eacute;rit&eacute;</A>. We used the V&eacute;rit&eacute; implementation
+					to create a  <A HREF='<c:url value="/mirage/gallery.html"/>'>technology demo</a> for Rendition, showing
+					off the features of their latest V2000 chips.
+
+
+
+			<br><br>
+					During this period, we also designed
+					<A HREF='<c:url value="/mirage/index.html"/>'>Mirage</A>, a 3D interactive adventure game
+        			for Viacom. The <A HREF='<c:url value="/mirage/technology.html"/>'>3D engine</A>,
+					and associated technology is primarily
+        			targeted at the interactive entertainment field and Internet applications.
+
+			<br><br>
+        			As one of the first registered developers for NeXT Software, Inc., B&auml;cchus
+					released two successful commercial
+        			products for the
+					<A HREF="http://www.osdata.com/oses/next.htm" target="_new">NEXTSTEP/OPENSTEP</A>
+					operating systems: <A HREF='<c:url value="/pm_ia/index.html"/>'>Pixel Magician</A> and
+					<A HREF='<c:url value="/pm_ia/index.html"/>'>Image Agent</A>,
+					advanced image conversion and processing applications.
+			
+
+
+			<br><br>
+					Other projects have included designing and implementing LightWatch, a graphical, SNMP
+					based network management system for <A HREF="http://www.adc.com/" target="new">ADC/Fibermux
+					Corporation</A>, a NEXTSTEP/UNIX based graphical network management system, a state
+					of the art information retrieval system for the California State Assembly,
+       				and an interactive touch screen based, digital music exhibit
+       				for the <A HREF="http://www.si.edu" target="new">Smithsonian Institute</A>.
+			
+
+
+			<br><br>
+					Many of the applications and custom user interface tools we created were
+					licensed to customers to create a variety of
+        			commercial applications including multimedia, network management and image
+					processing.
+			
+
+
+			<br><br>
+					Our first commercial applications included the
+					Voice Manager Series and the TX81Z/TX802 Graphic Editing Systems. These editing
+					systems were designed for use with Yamaha Corporation's FM digital
+        			music synthesizers&#x2014;TX81Z and TX802.
+       		
+
+			<br><br><br>
+
+		 	<DIV align="center">
+           			 <B>Consulting Clients</B>
+			</DIV>
+
+
+			<br><br>
+					<A HREF="http://www.ixiacom.com/" target="new">Ixia</A>,
+					<A HREF="http://java.sun.com/" target="new">Sun Microsystems, Inc.</A>,
+					<A HREF="http://www.path-communications.com/" target="new">Path Communications, Inc.</A>,
+					<A HREF="http://www.webcountry.net" target="new">WorldSite Networks, Inc.</A>,
+					<A HREF="http://www.rendition.com/" target="new">Rendition, Inc.</A>,
+					<A HREF="http://www.adc.com/" target="new">ADC/Fibermux Corporation</A>,
+					<A HREF="http://www.yamaha.com/" target="new">Yamaha Music Corporation</A>,
+					<A HREF="http://www.si.edu/" target="new">Smithsonian Institute</A>,
+					<A HREF="http://www.sharpelectronics.com/" target="new">Sharp Electronics</A>,
+					<A HREF="http://www.sigmadesigns.com/" target="new">Sigma Designs</A>,
+					California State Assembly, and
+					Scenario, Inc.
+			
+			<br><br><br>
+			<DIV align="center">
+           			 <B>Customers</B>
+			</DIV>
+
+
+			<br><br>
+					US Navy,
+					Swiss Bank,
+					US Air Force,
+					Dept. of Defense,
+					NASA,
+					Abbott Laboratories,
+					Los Alamos National Labs,
+					National Reconnaissance Office (NRO),
+					WILTEL,
+					Davis Taylor Research Center
+					and a host of universities
+			
+
+   		<P align="CENTER">
+			<A HREF='<c:url value="/"/>'>Main</A>
+		</P>
+
+		<div class="footerProfile">
+		  <img src="images/Footer.gif" width="648" height="26"  alt="">
+		</div>
+
+</DIV>
+

@@ -1,0 +1,23 @@
+<%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %  legacy.jspf
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%>
+
+
+<DIV class="legacyNote">
+  <B>COMING SOON</b>, the Legacy pages will highlight some of the 
+  B&auml;cchus projects and commercial applications from the 
+  mid-1980s through the mid-1990s including the Voice Manager Series, 
+  TX81Z/TX802 Graphic Editing Systems, B&auml;cchus 
+  Window Management System, DynaBook, 
+  LightWatch SNMP Network Management System, 
+  <a href='<c:url value="/pm_ia/index.html"/>'>Pixel Magician &amp; ImageAgent</a>, and <a href='<c:url value="/mirage/index.html"/>'>Mirage</a>.
+</DIV>
+
+   <div class="legacyPageCollage">
+    <img src="images/LegacyPageCollage.jpg" alt="" border="0"  width="500" height="500">
+	<div class="footerLegacy">
+		<img src="images/Footer.gif" width="648" height="26"  alt="">
+	</div>
+  </div>

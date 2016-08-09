@@ -1,0 +1,241 @@
+                              Eric Bloom
+
+                       2118 Wilshire Blvd, #330
+                      Santa Monica, CA 90403-5784
+               tel: (310)455-2396  fax: (310)455-2396     
+        e-mail: eric@bacchus.com  web: http://www.bacchus.com/
+
+JOB OBJECTIVE
+
+  Programming position in an organization needing design and 
+  implementation of innovative, quality software solutions
+
+SUMMARY OF QUALIFICATIONS
+
+  · Over twenty years professional experience in software design and
+    development
+  · Driven, dedicated and creative with extraordinary attention to detail
+  · Proven ability to design and implement timely, practical
+    production quality solutions within clients' financial 
+    and time constraints
+  · Experienced in handling tasks and priorities with minimal
+    supervision
+
+AREAS OF EXPERTISE
+
+  · UI/GUI: very experienced with design, layout and 
+    implementation of both web-based and desktop applications 
+    Over twenty years experience with UI/GUI 
+  · Network and Web: servlets, JSPs, Apache, J2EE application
+    servers (JBOSS, Resin Enterprise and Jakarta/Tomcat), HTTP and HTTPS, 
+    TCP/IP sockets, multi-tiered client/server applications
+  · Programming Languages: Java (Applets, Taglibs, RMI, JNDI), 
+    C/C++, Perl, shell scripts
+  · HTML, DHTML, XHTML, JavaScript, CSS, XML, XSL, JSTL, Ant, Log4j, SiteMesh
+  · Internationalization and localization
+  · Graphics and other Programming: Swing, AWT, OPENSTEP/NeXTSTEP 
+    AppKit/Foundation Kit and Interface Builder, image processing
+  · Operating Systems, programming and administration: Windows NT/XP/2000, 
+    Linux (Debian), UNIX (BSD and OPENSTEP/NeXTSTEP)
+  · SCM: SVN, Perforce, StarTeam, CVS
+  . IDE's: Intelli-J and JBuilder
+
+ADDITIONAL SKILLS
+
+  . Photoshop
+  · Network and Web: JRun, CGI
+  · Programming Languages: Objective C,80x86 assembly, Pascal, 
+    Fortran, PL/I
+  · Operating Systems, programming and administration: Debian Linux
+    and MS-DOS 
+  · Security: Java and JavaScript obfuscation
+  · Database Systems: some experience with MySQL, SQL, JDBC, Oracle
+  · Video, serial device drivers and BIOS programming
+  · Technical writing and documentation
+
+
+PROFESSIONAL EXPERIENCE
+
+  Bäcchus, Inc., Santa Monica, California, 
+
+                                                           2002-present
+  . For 5square Systems Corporation:
+     . Primary UI/Front-end developer for DealSnap--5square's Customer   
+       Resource Management (CRM) Web application for Car Dealerships.
+       . Joined a team of 20+ J2EE developers as the primary UI developer
+         for DealSnap 4.x
+       . JSP's, servlets, custom taglibs, DHTML, DOM, JavaScript, 
+         CSS and Ant
+       . Developed on a Windows XP/Pro platform using JBOSS 4.x/Tomcat,
+         with IntelliJ and svn for source control.
+       . Deployed on Linux platform with Apache/JBOSS
+
+  . For Web i18n, LLC:
+     . Helped design, manage and implement internationalized (i18n) 
+       J2EE-based real estate web applications--i18ngenious 
+       and associated content management system--agent.i18ngenious.
+       . Initial offering supports Engish, Traditional Chinese and
+         Simplified Chinese.
+       . JSP's, servlets, taglibs, JSTL, XML, XSL and CSS used for 
+         browser-based front-end/UI.
+       . Java, EJBs, Apache, resin-ee and Postgres DB on server-side,
+         back-end.
+       . Developed under Linux and Windows XP/2000
+
+                                                            (1998-2002)
+       
+  . For Ixia:
+     · Designed and implemented IxCore, a fundamental part of Ixia's
+       NetOps suite of products for optimizing and monitoring network
+       traffic.
+       · System includes Java-based central server for collecting,
+         aggregating, and storing data from Ixia's hardware nodes.
+       · JSP's and servlets provided browser-based monitoring
+         front-end, including various on-demand and prerendered report
+         graphs, logging, and a configuration/management UI.
+       · IxCore is platform, application server, and database
+         independent                                                              
+    
+  . For CarsDirect.com:
+    · Helped CarsDirect.com win numerous awards for its website.
+    · Wrote web-based customer service tool, eLiveAdvisor, now
+      in service providing 24x7 live on-line support.
+    · Implemented "cascading" user interface for eLiveAdvisor allowing
+      support of widest range of users, browsers and platforms.
+    · Integrated, setup, deployed and maintained eLiveAdvisor server and 
+      client side components on development, staging and production 
+      application servers and web servers. 
+    · Created highly-visual instrumentation monitoring applet for 
+      eLiveAdvisor.
+    · Solved numerous Java, JavaScript, HTML and web site integration 
+      problems.
+
+  · For LRN, The Legal Knowledge Company:   
+    · Implemented, integrated, setup and deployed a Java-servlet based 
+      Report Server application for thier Legal Compliance and Education 
+      Center (LCEC) running on Linux Apache/mod_perl and Solaris Oracle 
+
+  · For Path Communications:
+    · Assisted in trying to get company to IPO.  Helped set direction and
+      goals for the company.
+    · Helped implement, maintain and deploy proprietary Java 2 Enterprise 
+      Edition technology application server  -- the Path Application
+      Manager (P.A.M.).    
+    · Helped design, write, setup and deploy P.A.M. instrumentation 
+      monitoring application -- P.A.M. Console.
+    · Wrote applet framework for fault tolerant socket-based 
+      communication with various application servers.
+    · Created highly visual "real-time" instrumentation graphing applets.
+    · Adapted Java-based instrumentation package.
+    · Directed administrators and programmers.
+    · Helped design and implement their Java-based central logging 
+      software -- a system loosely based on BSD's System Logging application.
+    · Product demos including detailed source examples and documentation.
+    · All client deliverables and deployments were production quality.
+  
+                                                                (1997-1998)
+  · For WorldSite Networks:
+    · Helped develop their RMI-based, e-commerce software services, including 
+      check and credit card payment processing.
+    · Developed flashy, Swing-based, multi-threaded console application to 
+      monitor server farm liveliness and alert system administrators
+      upon warning and failure conditions. 
+
+  · For Sun Microsystems:
+    · Worked on the early development of Swing from Netscape IFC. 
+      Particularly experienced implementing pluggable look-and-feels 
+      using Swing.
+
+                                                                (1994-1996)
+  · Designed web site for Bäcchus, Inc.
+
+  · For Rendition:
+    · Created a custom demo incorporating 3D and live video to show off
+      their Vérité v2200 graphics chips.
+    · Debugged problems in their graphic chip firmware and drivers.
+
+  · For Viacom New Media (a child company of Viacom International):
+    · Pitched and got funding for a cutting edge game designed to inspire
+      interest in mathematics in teenagers.
+    · Helped with original story material and design.
+    · Hired and managed multiple writing teams, graphics houses, and game
+      designers.
+    · Created budgets and project milestones.
+    · Displayed game at Electronics Entertainment Expo.
+
+  · Helped design and write Bäcchus' high-resolution real-time
+    6-DOF 3D graphics engine and associated content authoring tools.
+    Created all early demo content, supporting tools and marketing 
+    materials.
+                                                                (1990-1993)
+  · For Ridgeback Solutions, Malibu, California:
+    · Worked with the President, Errol Ginsberg, now President and
+      CEO of Ixia.
+    · Helped write NetWatch -- a graphical, SNMP-based network management 
+      system, primarily for monitoring workstations. This was a commercial
+      application for the OPENSTEP/NeXTSTEP operating systems.
+
+  · Designed and wrote the Pixel Magician and Image Agent -- commercial  
+    image conversion and processing products for the OPENSTEP/NeXTSTEP
+    operating systems. These applications were used by many prominent 
+    clients.
+    Dealt with QA, testing, marketing, advertising and sales.  Performed 
+    customer service.
+  . Registered bacchus.com in 1991.
+  · For ADC/Fibermux Corporation: 
+    . Designed and implemented LightWatch, a graphical, SNMP-based network 
+      management system. Custom window management and widget libraries were 
+      also licensed from Bäcchus.
+ 
+                                                                (1985-1989)
+  · Became one of the first registered developers for NeXT Computer, Inc.,
+    in 1989.                                                       
+  · For California State Assembly: 
+     . Designed and wrote a state of the art information retrieval system 
+       for the California State Assembly.
+  · For Smithsonian Institute/Yamaha Music Corporation: 
+     . Created an interactive touch screen based, digital music exhibit. 
+  · Created custom user interface tools that were licensed to customers to 
+    create a variety of commercial applications including multimedia, 
+    network management and image processing. 
+  · Created and marketed successful commercial applications including the 
+    Voice Manager Series and the TX81Z/TX802 Graphic Editing Systems. These 
+    editing systems were designed for use with Yamaha Corporation's 
+    FM digital music synthesizers.
+  · Started Bäcchus, Inc., in October 1985.
+
+  Practical Peripherals, Inc., WestLake Village, Ca.
+  Programmer                                                   (1984-1985)
+
+  · Wrote application software to support IBM PC-based hardware products, 
+    e.g., modems, graphics and multi-function cards, etc. Majority of the 
+    work involved low-level BIOS, memory resident and device driver code. 
+    All programming done in 8088 assembly language.
+
+  Merisel (formerly Softsel Computer Products), Inglewood, Ca.
+  Programmer                                                   (1983-1984)
+
+  · Designed and developed Softsel's first in-house IBM-PC Network Order 
+    Entry System -- SofNet. PC's were linked together using 3Com's Ethernet 
+    network system and several Altos 586 servers. Code written in Microsoft 
+    Pascal and 8086 assembly language.
+
+  Hughes Aircraft Company, El Segundo/Canoga Park, Ca. 
+  Programmer                         (Summer 1979, Summer 1980, 1981-1983)
+
+  · Work included database applications programming on an HP-3000 
+    minicomputer, testing and documentation of PL/I compiler on PDP-11 
+    and modification of heat transfer programs for hybrid chips.
+
+EDUCATION
+  · B.A. Applied Arts & Sciences, Computer Science, San Diego 
+    State University, 1981
+
+PROFESSIONAL AFFILIATIONS
+  · Through Bäcchus, registered developer for Sun, Autodesk, 3Dfx,
+    Rendition, Metagraphics
+
+PERSONAL INTERESTS
+  · Highly visual and intuitive 2D/3D computer interfaces 
+  · Music, guitar, film, mountain biking
+                        

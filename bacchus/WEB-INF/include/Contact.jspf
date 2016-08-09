@@ -1,0 +1,26 @@
+
+
+<%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %  Skills.jspf
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%>
+
+
+		<div class="contact">
+			B&auml;cchus, Inc.<br>
+			2118 Wilshire Blvd., #330<br>
+			Santa Monica, CA<br>
+			90403-5784<br><br>
+			310.455.2396 (tel)<br>
+			310.455.2396 (fax)<br>
+			<a href="mailto:info@bacchus.com">info@bacchus.com</a><br>
+			
+			<div class="footerContact">
+				<img src="images/Footer.gif" width="648" height="26"  alt="">
+			</div>
+		</div>
+
+
+
+

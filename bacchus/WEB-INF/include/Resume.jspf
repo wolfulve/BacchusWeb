@@ -1,0 +1,264 @@
+
+
+<%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %  Profile.jspf
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%>
+
+<DIV class="profileText">
+
+			<br>
+			<DIV class="profileHeader" align="right">
+          		<%--<B>1999-PRESENT</B>--%>
+				<img src="images/1999.gif"  width="118" height="30" alt="">
+			</DIV>
+		                                                              
+
+ For <b><a href="http://www.5square.com/" target="new">5square Systems, Inc.</a></b>
+	<ul>
+     <li>
+     Primary UI/Front-end developer for DealSnap&#x2013;5square's Customer   
+       Resource Management (CRM) Web application for Car Dealerships.
+	   <ul>
+			<li>Joined a team of 20+ J2EE developers as the primary UI developer
+         for DealSnap 4.x
+			<li>JSP's, servlets, custom taglibs, DHTML, DOM, JavaScript, 
+         CSS and Ant
+			<li>Developed on a Windows XP/Pro platform using JBOSS 4.x/Tomcat,
+         with IntelliJ and svn for source control.
+      <li>Deployed on a Linux platform with Apache/JBOSS.
+	</ul>
+ </ul>
+	For <b><a href="http://www.web-i18n.net/" target="new">Web i18n, LLC</a></b>
+	<ul>
+     <li>Helped design, manage and implement internationalized real estate 
+       web applications&#x2013;<a href="http://www.web-i18n.net/web-i18n/products/" target="new">i18ngenious</a>, <a href="http://www.web-i18n.net/web-i18n/products/" target="new">agent.i18ngenious</a> and admin.i18ngenious.
+	   <ul>
+			<li>Initial offering supports Traditional Chinese, Simplified 
+			Chinese, and English.
+			<li>JSP's, servlets, taglibs, JSTL, XML, XSLT and CSS used for 
+			browser-based front-end/UIs.
+			<li>Java, EJBs, Apache, Resin and Postgres DB on server side.
+			<li>Developed under Linux and Windows XP/2000
+	   </ul>
+	</ul>
+   
+	For <a href="http://www.ixiacom.com/" target="new" ><b>Ixia</b></a>
+		<ul>
+			<li>Designed and implemented IxCore, a fundamental part of Ixia's
+			NetOps suite of products for optimizing and monitoring network
+			traffic.
+			<ul>
+				<li>System includes Java-based central server for collecting,
+				aggregating, and storing data from Ixia's hardware nodes.
+				<li>JSP's and servlets provided browser-based monitoring
+				front-end, including various on-demand and prerendered report
+				graphs, logging, and a configuration/management UI.
+				<li>IxCore is platform, application server, and database
+				independent and runs on Linux and Windows NT/2000.
+			</ul>
+		</ul>
+	For <a href="http://www.carsdirect.com/" target="new"><b>CarsDirect.com</b></a>
+	<ul>
+		<li>Helped CarsDirect.com win numerous awards for its website.
+		<li>Wrote web-based customer service tool, eLiveAdvisor, now
+			in service providing 24x7 live on-line support.
+		<li>Implemented "cascading" user interface for eLiveAdvisor allowing
+			support of widest range of users, browsers and platforms.
+		<li>Integrated, setup, deployed and maintained eLiveAdvisor server and 
+			client side components on development, staging and production 
+			application servers and web servers. 
+		<li>Created highly-visual instrumentation monitoring applet for 
+			eLiveAdvisor.
+		<li>Solved numerous Java, JavaScript, HTML and web site integration 
+			problems.
+	</ul>
+	For <a href="http://www.lrn.com/" target="new"><b>LRN, The Legal Knowledge Company</b></a>
+		<ul>
+		<li>Implemented, integrated, setup and deployed a Java-servlet based 
+			Report Server application for thier Legal Compliance and Education 
+			Center (LCEC) running on Linux Apache/mod_perl and Solaris Oracle 
+		</ul>
+	For <a href="http://www.pratt-whitney.com/" target="new"><b>Pratt & Whitney</b></a>
+		<ul>
+		<li>Lead developer for real-time aircraft parts procurement reverse auction
+			web site&#x2014;<a href="http://www.aerooffer.com/" target="new">AeroOffer.com</a>.
+		<li>Project involved extensive Java client/server, servlet and JavaScript
+			development.
+		</ul>
+	For <a href="http://www.contactpath.com/" target="new"><b>Path Communications</b></a>
+	<ul>
+		<li>Assisted in trying to get company to IPO.  Helped set direction and
+			goals for the company.
+		<li>Helped implement, maintain and deploy proprietary Java 2 Enterprise 
+			Edition technology application server&#x2013;the <A HREF="http://www.contactpath.com/products.htm" target="new">Path Application
+			Manager (P.A.M.)</a>.    
+		<li>Helped design, write, setup and deploy P.A.M. instrumentation 
+			monitoring application&#x2013;P.A.M. Console.
+		<li>Wrote applet framework for fault tolerant socket-based 
+			communication with various application servers.
+		<li>Created highly visual "real-time" instrumentation graphing applets.
+		<li>Adapted Java-based instrumentation package.
+		<li>Directed administrators and programmers.
+		<li>Helped design and implement their Java-based central logging 
+			software&#x2013;a system loosely based on BSD's System Logging application.
+		<li>Product demos including detailed source examples and documentation.
+		<li>All client deliverables and deployments were production quality.
+	</ul> 
+	<br>
+	<DIV class="profileHeader" align="right">
+          		<%--<B>(1997-1998)</B>--%>
+				<img src="images/1997.gif"  width="100" height="30" alt="">
+	</DIV>
+                                                           
+	For <a href="http://www.webcountry.net/" target="new"><b>WorldSite Networks</b></a>
+	<ul>
+		<li>Helped develop their RMI-based, e-commerce software services, including 
+			check and credit card payment processing.
+		<li>Developed flashy, Swing-based, multi-threaded console application to 
+			monitor server farm liveliness and alert system administrators
+			upon warning and failure conditions. 
+	</ul>
+	For <a href="http://www.sun.com/" target="new"><b>Sun Microsystems</b></a>
+  	<ul>
+		<li>Ported the Netscape
+		<A HREF="http://developer.netscape.com/docs/manuals/ifc/home.html" target="new">IFC's</A>
+		look and feel using <A HREF="http://java.sun.com/products/jfc/tsc/" target="new">Swing</A> 
+		(then still secret) and the AWT, producing what is now 
+		called the Elegance Look&nbsp;and Feel. 
+		<li>Particularly experienced implementing pluggable 
+		look-and-feels using Swing. We also helped Sun remove a number of bugs.
+	</ul>
+	<br>
+   <DIV class="profileHeader" align="right">
+          <%--<B>(1994-1996)</B>--%>
+		  <img src="images/1994.gif"  width="100" height="30" alt="">
+	</DIV>
+  <li>Designed web pages for B&auml;cchus, Inc.
+  <br><br>
+  For <A HREF="http://www.rendition.com/" target="new"><b>Rendition</b></a>
+    <ul>
+		<li>Created a <a href="mirage/graphics.html">custom demo</a> incorporating 3D and live video to show off
+		their V&#233;rit&#233; v2200 graphics chips.
+		<li>Debugged problems in their graphic chip firmware and drivers.
+	</ul>
+  For <a href="" target="new"><b>Viacom New Media</b></a> (a child company of Viacom International):
+	<ul>
+		<li>Pitched and got funding for a cutting edge game (<a href="mirage/index.html">Mirage</a>) designed to inspire
+		interest in mathematics in teenagers.
+		<li>Helped with original story material and design.
+		<li>Hired and managed multiple writing teams, graphics houses, and game
+		designers.
+		<li>Created budgets and project milestones.
+		<li>Displayed game at Electronics Entertainment Expo.
+	</ul>
+ For <b><a href="http://www.bacchus.com/">B&auml;cchus, Inc.</a></b>
+	<ul>
+	<li>Designed and wrote B&auml;cchus' high-resolution real-time
+		<a href="mirage/technology.html">6-DOF 3D graphics engine</a> and associated content authoring tools, 
+		demo content, supporting tools and marketing materials.
+	</ul>  
+   <br>
+   <DIV class="profileHeader" align="right">
+         <%--<B>(1990-1993)</B>--%>
+		  <img src="images/1990.gif"  width="100" height="30" alt="">
+   </DIV>
+   <br>
+     For <b>Ridgeback Solutions</b>
+  	<ul>
+		<li>Worked with the President, Errol Ginsberg, now President and
+		CEO of <a href="http://www.ixiacom.com">Ixia</a>.
+		<li>Helped write NetWatch&#x2013;a graphical, SNMP-based network management 
+		system, primarily for monitoring workstations. This was a commercial
+		application for the OPENSTEP/NeXTSTEP operating systems.
+	</ul>
+	For <b><a href="http://www.bacchus.com/">B&auml;cchus, Inc.</a></b>
+		<ul>
+		<li>Designed and wrote the <a href="pm_ia/index.html">Pixel Magician and Image Agent</a>&#x2013;commercial  
+		image conversion and processing products for the <A HREF="http://www.osdata.com/oses/next.htm" target="_new">OPENSTEP/NeXTSTEP</a>
+		operating systems. These applications were used by many prominent 
+		clients. 
+		<li>Dealt with QA, testing, marketing, advertising and sales.  Performed 
+		customer service.
+		</ul>
+	<li>Registered bacchus.com in 1991.
+	<br><br>
+	For <a href="http://www.adc.com/" target="new"><b>ADC/Fibermux Corporation</b></a>: 
+		<ul>
+		<li>Designed and implemented LightWatch, a sophisticated, highly graphical, 
+			SNMP-based network management 
+			system for managing and controlling multi-protocol LAN's.
+		<li>The underlying graphics interface for the MS-DOS version
+		used the <a href='<c:url value="/legacy"/>'>B&auml;cchus Window Management System</a>, a proprietary,
+		platform independent window management system and widget 
+		library. These tools were licensed to Fibermux by B&auml;cchus.
+		<li>B&auml;cchus was also responsible for the look & feel and 
+		graphic asset generation for both the UNIX and MS-DOS versions
+		of LightWatch.
+		</ul>
+		<br>
+	   <DIV class="profileHeader" align="right">
+          <%--<B>(1985-1989)</B>--%>
+		  <img src="images/1985.gif"  width="100" height="30" alt="">
+		</DIV>
+	<br>
+	For <b>Scenario, Inc.</b>
+		<ul>
+		<li>Developed and licensed custom versions of our proprietary, platform independent window 
+		    management system, widget libraries and WYSIWIG interface tools for use with 
+			one of the first CD-ROM, touch-screen based portable computers&#x2013;The Scenario DynaBook.
+		<li>Created key applications and developer tools, including some advanced 2D image processing
+			libraries.
+		</ul>
+	<li>Became one of the first registered developers for NeXT Computer, Inc.,
+    in 1989. 
+	<br><br>
+	For <A HREF="http://www.yamaha.co.jp/english/product/lsi/us/index.html" target="new">Yamaha Systems Technology (YST)</a>
+		<ul>
+		<li>Wrote low-level assembly language video device drivers
+		to support various high-resolution graphics chips and demos 
+		for third party flat panel displays.
+		</ul>
+	<li>For <b>California State Assembly</b> 
+		<ul>
+		<li>Designed and wrote a state of the art information retrieval system 
+		for the California State Assembly.
+		</ul>
+	For <A HREF="http://www.si.edu" target="new"><b>Smithsonian Institute</b></a>
+		<ul>
+		<li>Designed, wrote, and installed an interactive computer, 
+		touch-screen-based digital music exhibit at the Smithsonian 
+		museum in Washington DC. 
+		</ul>
+
+	For <b>Yamaha Music Group (YMG)</b>
+		<ul>
+		<li>Members of a select group of developers that were given early 
+			hardware prototypes for development of in-house, third party, commercial 
+			applications.
+		<li>One of the first developers to work with and support the 
+			Yamaha C1 Music Computer, the first laptop computer with 
+			built-in MIDI hardware.
+		<li>Various music and MIDI related software contracts.
+		</ul> 
+	For <b><a href="http://www.bacchus.com/">B&auml;cchus, Inc.</a></b>
+		<ul>
+		<li>Designed and wrote successful commercial applications&#x2013;The 
+		<a href='<c:url value="/legacy"/>'>Voice Manager Series</a> and The 
+		<a href='<c:url value="/legacy"/>'>TX81Z/TX802 Graphic Editing Systems</a>. These 
+		editing systems were designed for use with Yamaha Corporation's 
+		DX/TX series FM digital music synthesizers.
+		<li>Dealt with QA, testing, marketing, advertising and sales.  Performed 
+		customer service.
+		</ul>
+	<li>Started B&auml;cchus, Inc., in October 1985.
+
+
+
+		<div class="footerProfile">
+		  <img src="images/Footer.gif" width="648" height="26"  alt="">
+		</div>
+	<br>
+</DIV>
+

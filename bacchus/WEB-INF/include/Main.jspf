@@ -1,0 +1,134 @@
+
+
+<%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %  Main.jspf
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%>
+
+ 
+ <script type="text/javascript" language="JavaScript1.2">
+ <!--
+  
+
+    var clientText = new Array();
+    var clientLabelImages = new Array();
+	var clientImages = new Array();
+	var clientImagesH = new Array();
+
+	<% for (int i=0; i < numClients; i++) { %>
+		clientLabelImages[<%=i%>] = new Image();
+		clientLabelImages[<%=i%>].src = "images/Client_<%=clientNames[i]%>_Label.gif"
+		clientImages[<%=i%>] = new Image();
+		clientImages[<%=i%>].src = "images/clientList/normal/<%=clientNames[i]%>.gif"
+		clientImagesH[<%=i%>] = new Image();
+		clientImagesH[<%=i%>].src = "images/clientList/highlight/<%=clientNames[i]%>.gif"
+		clientText[<%=i%>] = "<%=clientNames[i]%>";
+	<% } %>
+  
+
+    var currIndex = <%=currClient%>;
+    var innerMostClientDivPrefix = 'document.secCol.document.Client'; 
+
+    function changeClient(index) {
+
+      currClient = clientText[currIndex];
+      newClient = clientText[index];
+
+
+
+      <% if ( !NS4X ) { %>
+	// change client label
+	eval('document.ClientNameLabel.src = clientLabelImages[index].src');
+        // de-highlight prev-client
+        eval('document.Client' + currClient + '.src = clientImages[currIndex].src');
+	// highlight client
+	eval('document.Client' + newClient + '.src = clientImagesH[index].src');
+
+	//document.getElementById(currClient).style.visibility = "hidden";
+	//document.getElementById(newClient).style.visibility = "visible";
+
+	// hide current
+	document.getElementById(currClient).style.top  = "<%=offScreen%>";
+	// show new
+	document.getElementById(newClient).style.top  = "<%=onScreen%>";
+
+
+      <% } else { %>
+	// change client label
+	eval('document.ClientNameLabel.document.ClientNameLabel.src = clientLabelImages[index].src');
+	// de-highlight prev-client
+        eval(innerMostClientDivPrefix + currClient + '.document.Client' +  currClient + '.src = clientImages[currIndex].src');
+	// highlight client
+	eval(innerMostClientDivPrefix + newClient + '.document.Client' + newClient + '.src = clientImagesH[index].src');
+
+	// hide current
+        eval('document.' + currClient + '.top  = "<%=offScreen%>"');
+	// show new
+      	eval('document.' + newClient + '.top  = "<%=onScreen%>"');
+
+  
+      <% } %>
+
+      currIndex = index;
+    }
+
+
+ // -->
+ </script>
+ 
+
+<div class="backgroundLabel"><img src="images/BackgroundLabel.gif" width="87" height="30"></div>
+<div class="firstCol">
+	    <span class="bodyTextCap">B</span>&auml;cchus, Inc., founded in&nbsp;1985, 
+	    is a full service software development consulting firm specializing in
+	    Internet and web-based technologies, e-commerce, graphics, imaging and
+	    GUI.
+	    <p>
+	    <span class="bodyTextCap">O</span>ver the past twenty years, B&auml;cchus has 
+	    designed and developed a wide array of innovative applications for a variety of 
+	    high profile clients and partners as well as several successful, 
+	    in-house commercial products.
+</div>
+
+<div class="clientsLabel"><img src="images/ClientsLabel.gif" width="60" height="29"></div>
+<div id="secCol" class="secCol">
+	<% for (int i=0; i < numClients; i++) {
+	String dir = "normal"; 
+	String target;
+	if ( i == currClient )
+		dir = "highlight"; 
+	    target = "_new";
+	    if ( clientURLs[i] == "" )
+			target = ""; %>
+		<DIV ID="Client<%=clientNames[i]%>" CLASS="ClientBox-<%=i+1%>"><A href="<%=clientURLs[i]%>" target="<%=target%>" onMouseOver="changeClient(<%=i%>);"><IMG border="0" name="Client<%=clientNames[i]%>" SRC="images/clientList/<%=dir%>/<%=clientNames[i]%>.gif" WIDTH="142" HEIGHT="16"></A>
+		</DIV>
+	<% } %>
+
+	<div class="ImageAgent"><a href='<c:url value="/legacy"/>'><img src="images/LegacyCollage.gif" alt="B&auml;cchus Legacy Page" border="0" width="140" height="126"></a>
+	</div>
+	<div class="goalImage">
+			<img src="images/Goal.gif"  width="385" height="40" alt="">
+			<div class="footerMain"><img src="images/Footer.gif" width="648" height="26"  alt=""></div>
+	</div>
+
+</div>
+		
+    <div ID="ClientNameLabel" class="clientSummaryLabel">
+		<img name="ClientNameLabel" src="images/Client_<%=clientNames[currClient]%>_Label.gif" width="200" height="30" >
+    </div>
+
+
+    
+	<c:forEach var="client" items="${clients}" varStatus="status">
+			<div id='<c:out value="${client}"/>'>
+				<c:import url="WEB-INF/text/${client}.inc" charEncoding="UTF-8" />
+			</div>
+	</c:forEach>
+
+	
+	  
+
+
+
+

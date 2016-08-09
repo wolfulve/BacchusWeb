@@ -1,0 +1,169 @@
+<%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %  common.jsp 
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%>
+
+<%--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %
+ %  Java preprocessing
+ %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--%>
+
+ <%@ page import="java.util.Random" %>
+ <%@ page import="java.util.ArrayList" %>
+ <%@ page import="java.util.Hashtable" %>
+
+<%!
+	String clientNames[] = { 
+	"Sun",
+    "CarsDirect",
+	"Ixia",
+  "fivesquare",
+    "Webi18n",
+	"Worldsite",
+    "Path",
+	//"PrattAndWhitney",
+    "Viacom",
+    "ADC",
+    "Rendition",
+    "Yamaha",
+    "Smithsonian"
+	};
+
+   ArrayList clients;
+
+   String clientURLs[] = { 
+	"http://java.sun.com/",
+	"http://www.carsdirect.com/",
+    "http://www.ixiacom.com/",
+    "http://www.5square.com/",
+    "http://www.web-i18n.net/",
+    "http://www.webcountry.net/",
+    "http://www.contactpath.com/",
+	//"http://www.pratt-whitney.com/",
+    "http://www.viacom.com/",
+    "http://www.adc.com/",
+    "http://www.rendition.com/",
+    "http://www.yamaha.com/",
+    "http://www.si.edu/"
+	};
+
+	int numClients = 12;
+	int currClient = 0;
+	int onScreen = 155;
+	int offScreen = -1000;
+
+	String[] headerImages = {
+		"images/menuAndHeader/normal/mi0.gif",
+		"images/menuAndHeader/normal/mi1.gif",
+		"images/menuAndHeader/normal/mi2.gif",
+		"images/menuAndHeader/normal/mi3.gif",
+		"images/menuAndHeader/normal/mi4.gif"	
+	};
+
+	String[] headerImagesH = {
+		"images/menuAndHeader/highlight/mi0.gif",
+		"images/menuAndHeader/highlight/mi1.gif",
+		"images/menuAndHeader/highlight/mi2.gif",
+		"images/menuAndHeader/highlight/mi3.gif",
+		"images/menuAndHeader/highlight/mi4.gif"
+	};
+
+	String logoImageNormal = 
+		"images/menuAndHeader/normal/Logo.gif";
+	String logoImageHighlight = 
+		"images/menuAndHeader/highlight/Logo.gif";
+
+	String[] menuArray = {
+		headerImages[0],
+		headerImages[1],
+		headerImages[2],
+		headerImages[3],
+		headerImages[4]
+	};
+
+	Hashtable pageIds = new Hashtable();
+
+	int NUM_MENU_ITEMS = 5;
+	String menuURLs[] = new String[NUM_MENU_ITEMS];
+
+	int MAIN_PAGE				= 0;
+	int SKILLS_PAGE				= 1;
+	int RESUME_PAGE				= 2;
+	int LEGACY_PAGE				= 3;
+	int CONTACT_PAGE			= 4;
+	int	ERROR_PAGE				= 5;
+
+	String[] pages = {
+		"main",
+		"skills",
+		"resume",
+		"legacy",
+		"contact",
+		"error"
+	};
+
+	String[] pageURLs = {
+		"",
+		"skills",
+		"resume",
+		"legacy",
+		"contact",
+		"error"
+	};
+
+	int pageId;
+	String pageS;
+	String mainURL;
+	String pageTitle;
+	String contextPath;
+	boolean NS4X;
+	boolean MAC_IE;
+
+ %>
+
+<%
+  String userAgent = request.getHeader("User-Agent");
+  NS4X = false;
+  MAC_IE = false;
+  if ( userAgent.indexOf("Mac") != -1 )
+				MAC_IE = true;	// Any version of IE for Mac.
+  else
+  // Use layers if any version of NS less than 6.0, e.g., 4.x
+  if ( userAgent.indexOf("MSIE") == -1 && userAgent.indexOf("/4.") != -1 )
+    NS4X = true;	// Netscape 4.x or lower
+
+	// randomize the initial selected client
+  currClient = 3; //new Random().nextInt(numClients-1);
+
+  for (int ipage=MAIN_PAGE; ipage < ERROR_PAGE; ipage++)
+	pageIds.put( pages[ipage], new Integer(ipage));
+
+  pageS = getServletConfig().getInitParameter("page");
+  pageId = MAIN_PAGE;
+  if ( pageS != null )
+	pageId = ((Integer)pageIds.get(pageS)).intValue();
+  pageContext.setAttribute("pageId", new Integer(pageId));
+  menuArray[pageId] = headerImagesH[pageId];
+
+  String sep = "&mdash;";
+  if (MAC_IE || NS4X)
+		sep = ": ";
+  pageTitle = "B&auml;cchus" + sep + pages[pageId];
+
+  clients = new ArrayList(numClients);
+  for (int i=0; i < numClients; i++)
+	clients.add(clientNames[i]);
+  pageContext.setAttribute("clients", clients);
+
+  contextPath = request.getContextPath();
+  for (int i=0; i < NUM_MENU_ITEMS; i++)
+	menuURLs[i] = contextPath + "/" + pageURLs[i];
+
+  // set to neg. one year, to ensuer no caching. We need this
+  // because IE/NS usese different doc/object model JS code etc.
+  response.setDateHeader("expires", System.currentTimeMillis()-((86400L)*1000*365));
+
+%>
+
